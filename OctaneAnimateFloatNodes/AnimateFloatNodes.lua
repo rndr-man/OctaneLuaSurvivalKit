@@ -1,7 +1,7 @@
 -- @shortcut       ctrl+alt+a
 --[[
 ================================================================================
-Animate Float Nodes - Main Entry Point
+AnimateFloatNodes - Main Entry Point
 ================================================================================
 
 @description    Applies keyframe animation to Octane Float Value nodes.
@@ -32,7 +32,7 @@ FILE STRUCTURE
 --------------------------------------------------------------------------------
 
 AnimateFloatNodes/
-├── Animate Float Nodes.lua     -- This file (entry point)
+├── AnimateFloatNodes.lua     -- This file (entry point)
 ├── README.md                   -- Documentation
 └── AnimateFloatNodes_bin/
     ├── config.lua              -- Centralized constants and configuration
