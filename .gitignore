@@ -1,0 +1,15 @@
+# Octane / Lua script artifacts
+AnimateFloat_buffer.json
+octane_assets_manifest.json
+*buffer*.json
+*.log
+
+# Exclude not-yet-ready tool from publishing
+OctaneAnimationTimeTransform/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
