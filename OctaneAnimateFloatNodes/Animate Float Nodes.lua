@@ -120,11 +120,6 @@ local scriptPath = debug.getinfo(1, "S").source:match("@(.*/)")
 -- Construct path to bin directory
 local binPath = scriptPath .. "AnimateFloatNodes_bin/"
 
--- Make module loading independent of Octane's `require` search path.
--- This allows developers to copy the entire `OctaneAnimateFloatNodes` folder
--- into their Octane Lua scripts directory without worrying about `LUA_PATH`.
-package.path = scriptPath .. "?.lua;" .. scriptPath .. "?/?.lua;" .. package.path
-
 -- Load required modules in dependency order
 -- 1. Config must load first (no dependencies, provides constants)
 require "AnimateFloatNodes_bin/config"
